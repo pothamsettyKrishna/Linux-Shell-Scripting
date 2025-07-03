@@ -22,6 +22,19 @@ It manages resources like memory, CPU, and input/output devices, enabling the OS
 
 "Shell" is a way to talk to OS.
 
+### shebang
+
+In computing, a shebang is the character sequence #! (number sign and exclamation mark) at the beginning of a script.
+
+The shebang line specifies the interpreter (like Bash, Python, etc.) that should be used to execute the script.
+
+Example: #/bin/bash
+
+#### Bash
+
+Bash (Bourne Again SHell) is a widely used command language interpreter
+
+
 ### Shell Commands
 
   - ls : list files and folders
@@ -32,12 +45,34 @@ It manages resources like memory, CPU, and input/output devices, enabling the OS
   - vi : To create a file and write in to the file.
   - :wq! : To save the file
   - cat : To print the file
-  - mkdir : creating directory
+  - mkdir : Make/create directory
   - rm -r <directory-name> : To delete directory
   - free -g : To get memory details
   - nproc - To check no.of CPU's
   - df -h : Disk size
   - top  : To get all Memorry, CPU & Disk details in one place
+  - history : To get history of commands executed
+  - 
+
+#### chmod
+
+The chmod command in Linux-like operating systems is used to change the access permissions of files and directories
+
+'chmod' is divided into 3 catgeroies
+
+    1. Owner / administrator access
+    2. Group user access
+    3. Other users
+
+Access can be granted to a file using numbers. 
+
+example to give access to all users - chmod 777 <file_name>
+
+  4 - Read
+  2 - Write
+  1 - execute
+
+  sum of 4+2+1 = 7, means user can have access to read, write and execute
 
 
 
